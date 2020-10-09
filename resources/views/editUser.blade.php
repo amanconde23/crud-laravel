@@ -11,7 +11,7 @@
         @csrf
         <!-- como o form so suporta post/get, usa o helper method-->
         @method('PUT')
-        <label for="">Nome do Usuário: </label>
+        <label for="">Nome do Usuário </label>
         <input type="text" name="name" value="{{ $user->name }}">
 
         <label for="">Email do Usuário: </label>
